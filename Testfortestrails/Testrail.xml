@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>&quot;Зв`язатися з нами&quot;</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C1</id>
+				<title>Проверить цвет шрифта надписи &quot;Зв`язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1. Проверить цвет шрифта надписи &quot;Зв`язатися з нами&quot;</steps>
+										<expected>Цвет шрифта надписи &quot;Зв`язатися з нами&quot; #ABAEB5
+
+Link: https://gyazo.com/65753c0a1e7e6d69ab5c33de3c3f738f
+
+
+
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C2</id>
+				<title>Проверить стиль шрифта надписи &quot;Зв`язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1. Проверить стиль шрифта надписи &quot;Зв`язатися з нами&quot;</steps>
+										<expected>Стиль шрифта надписи &quot;Зв`язатися з нами&quot; sans-serif
+
+Link: https://gyazo.com/65753c0a1e7e6d69ab5c33de3c3f738f
+
+
+
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C3</id>
+				<title>Проверить размер шрифта надписи &quot;Зв`язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1. Проверить размер шрифта надписи &quot;Зв`язатися з нами&quot;</steps>
+										<expected>Размер шрифта надписи &quot;Зв`язатися з нами&quot; 50 px
+
+Link: https://gyazo.com/65753c0a1e7e6d69ab5c33de3c3f738f
+
+
+
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C4</id>
+				<title>Проверить содержимое выпадающего списка в блоке &quot;Тематика звернення&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1. Кликнуть на блок справа от раздела &quot;Тематика звернення&quot;
+2. Обратить внимание на содержимое выпадающего списка</steps>
+										<expected>В выпадающем списке блока &quot;Тематика звернення&quot; есть такие пункты: &quot;Комерційна пропозиція&quot;, &quot;Земельні ділянки&quot;, &quot;Вакансії&quot;, &quot;Маркетинг&quot;, &quot;Інше&quot; 
+
+Link: https://gyazo.com/1769258133af04fdf45ecff4ddfb0ea2
+
+
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C5</id>
+				<title>Проверить изменение цвета шрифта при наведении курсора на блок &quot;Прикріпити документ&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1. Навести курсор на блок &quot;Прикріпити документ&quot;</steps>
+										<expected>При наведении курсора на блок &quot;Прикрипіти документ&quot; шрифт меняет цвет на красный
+
+Link: https://gyazo.com/e1fd3478cceaefcb0c769dcbb8ad03da</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C6</id>
+				<title>Проверить активность ссылки &quot;політики конфіденційності&quot; в блоке &quot;приймаю умови політики конфіденційності&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1. Кликнуть на ссылку &quot;політики конфіденційності&quot; в блоке &quot;приймаю умови політики конфіденційності&quot;</steps>
+										<expected>При клике на ссылку &quot;політики конфіденційності&quot; в блоке &quot;приймаю умови політики конфіденційності&quot; происходит переход на страницу https://zezman.ua/ua/agreement/
+
+Link: https://gyazo.com/afa2d64f8ba5593937942ef54b92c91e</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C7</id>
+				<title>Проверить кликабельность чекбокса в блоке &quot;приймаю умови політики конфіденційності&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1. Кликнуть на чек-бокс в блоке &quot;приймаю умови політики конфіденційності&quot;</steps>
+										<expected>При клике на чекбокс в блоке &quot;приймаю умови політики конфіденційності&quot; в центре белого бокса появлется красная точка 
+
+Link: https://gyazo.com/e712d83ff7f34ce5af339dcb73ce700f</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C8</id>
+				<title>Проверить возможность вложения файла в блоке &quot;Прикріпити документ&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1. Кликнуть на блок &quot;Прикріпити документ&quot;
+2. Во всплывающем окне выбрать документ &quot;test&quot;, кликнуть &quot;відкрити&quot;</steps>
+										<expected>После вложения файла в блоке &quot;Прикріпити документ&quot; появится прикрепленный файл &quot;test.txt&quot;
+
+Link: https://gyazo.com/802508d9681683f985cbb1f826e13760</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C9</id>
+				<title>Проверить количество допустимых вводимых символов в блоке &quot;Телефон&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1. Ввести в форму блока &quot;Телефон&quot; &quot;50 252 6363&quot;
+</steps>
+										<expected>В блоке &quot;Телефон&quot; будет доступно к вводу 9 цифр
+
+Link: https://gyazo.com/6e71b40e2be7333d2547b0f841764ceb</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C10</id>
+				<title>Проверить возможность ввода текста в блоке &quot;Коментар&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds> </preconds>
+										<steps>1. В блоке &quot;Коментар&quot; ввести текст &quot;Жизнь как коробка шоколадных конфет: никогда не знаешь, какая начинка тебе попадется.&quot;
+</steps>
+										<expected>В блоке &quot;Коментар&quot; вводится текст и отображается надпись &quot;Жизнь как коробка шоколадных конфет: никогда не знаешь, какая начинка тебе попадется.&quot;
+
+Link: https://gyazo.com/04b58e58cb2c9a344d36831438ee6025</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C11</id>
+				<title>Проверить отклик на введение некоректного номера телефона в блоке &quot;Телефон&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds> </preconds>
+										<steps>1. В блоке &quot;Телефон&quot; ввести &quot;11 111 1111&quot;
+</steps>
+										<expected>В блоке &quot;Телефон&quot; отобразится сообщение №Некоректний номер телефону&quot;
+
+Link: https://gyazo.com/bd7f088873f340af6fe3bcafdcdd146a</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C12</id>
+				<title>Проверить отклик на введение некоректного электронного адреса в блоке &quot;E-mail&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds> </preconds>
+										<steps>1. В блоке &quot;E-mail&quot; ввести &quot;111&quot;
+</steps>
+										<expected>В блоке &quot;E-mail&quot; отобразится надпись &quot;Некоректно заповнено поле&quot;
+
+Link: https://gyazo.com/ee705f1b60aff3b5ee03f0cece43c5dd</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C13</id>
+				<title>Проверить отклик на попытку отправки формы обратной связи с нетипичным файлом во вложении</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds> </preconds>
+										<steps>1. В блоке &quot;Ім`я&quot; ввести &quot;test&quot;
+2. В блоке &quot;E-mail&quot; ввести &quot;test&quot;
+3. В блоке &quot;Телефон&quot; ввести &quot;50 526 3222&quot;
+4. В блоке &quot;Коментар&quot; ввести &quot;test&quot;
+5. D &quot;Прикрипіти документ&quot; вложить mp3 файл
+6. Кликнуть &quot;Відправити&quot;
+
+
+
+
+
+</steps>
+										<expected>При попытке отправить форму выводится сообщение &quot;Дозволені формати: doc, docx, rtf, xls, pdf. Розмір файлу не повинен перевищувати 15МБ&quot;
+
+Link: https://gyazo.com/ba016c0fe69437f076801f93b7dd83cf</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C14</id>
+				<title>Проверить отклик на попытку отправки формы обратной связи без заполнения чекбокса &quot;приймаю умови політики конфіденційності&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds> </preconds>
+										<steps>1. В блоке &quot;Ім`я&quot; ввести &quot;test&quot;
+2. В блоке &quot;E-mail&quot; ввести &quot;test&quot;
+3. В блоке &quot;Телефон&quot; ввести &quot;50 526 3222&quot;
+4. В блоке &quot;Коментар&quot; ввести &quot;test&quot;
+5. Кликнуть &quot;Відправити&quot;
+
+
+
+
+
+</steps>
+										<expected>При попытке отправить форму выводится сообщение &quot;Прийміть політику конфіденційності&quot;
+
+Link: https://gyazo.com/9e1c8b769eae92e7ad4fffd5dba330dd</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C15</id>
+				<title>Проверить отклик на попытку отправки формы обратной связи с нетипичными символами вместо имени</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds> </preconds>
+										<steps>1. В блоке &quot;Ім`я&quot; ввести &quot;11111&quot;
+2. В блоке &quot;E-mail&quot; ввести &quot;test@test.com&quot;
+3. В блоке &quot;Телефон&quot; ввести &quot;50 123 4567&quot;
+4. Кликнуть &quot;Відправити&quot;
+
+
+
+
+</steps>
+										<expected>Форма отправлена, высвечивается надпись &quot;Форма відправлена!&quot;
+
+Link: https://gyazo.com/a7cfe9b871fab3e6f43e5d16cd8179e2</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+</suite>
